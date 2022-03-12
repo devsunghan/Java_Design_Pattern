@@ -19,7 +19,7 @@ public class Main {
         writer.fileDisconnect();
         ftpClient.disConnect();
 
-        SftpClient sftpClient = new String("www.naver.com", 22, "/home/etc", "text.tmp");
+        SftpClient sftpClient = new SftpClient("www.naver.com", 22, "/home/etc", "text.tmp");
 
         sftpClient.connect();
 
