@@ -27,7 +27,7 @@ public class SftpClient {
 
     public void disConnect() {
         writer.fileDisconnect();
-        writer.fileDisconnect();
+        reader.fileDisconnect();
         ftp.disConnect();
     }
 
